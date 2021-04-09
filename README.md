@@ -91,7 +91,7 @@ npm-publish exposes some output variables, which you can use in later steps of y
 ```yaml
 steps:
   - id: publish
-    uses: JS-DevTools/npm-publish@v1
+    uses: Qualifyze/npm-publish@v1
     with:
       token: ${{ secrets.NPM_TOKEN }}
 
@@ -231,7 +231,7 @@ Contributions, enhancements, and bug-fixes are welcome!  [Open an issue](https:/
 To build the project locally on your computer:
 
 1. __Clone this repo__<br>
-`git clone https://github.com/JS-DevTools/npm-publish.git`
+`git clone https://github.com/Qualifyze/npm-publish.git`
 
 2. __Install dependencies__<br>
 `npm install`

@@ -61,7 +61,7 @@ jobs:
           node-version: 10
       - run: npm install
       - run: npm test
-      - uses: JS-DevTools/npm-publish@v1
+      - uses: Qualifyze/npm-publish@v1
         with:
           token: ${{ secrets.NPM_TOKEN }}
 ```
